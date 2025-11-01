@@ -1,4 +1,4 @@
-from Budda import Budda
+from budda import Budda
 from time_manager import TimeManager
 
 
@@ -6,7 +6,7 @@ class AnimationManager:
     def __init__(self, screen):
         self.screen = screen
         self.time_manager = TimeManager()
-        self.animations = {"MORGENS": "Schneckenkampf", "MITTAGS": "Budda", "ABENDS": Budda(screen), "NACHTS": "Schlafen"}
+        self.animations = {"MORGENS": "Schneckenkampf", "MITTAGS": BierFight(), "ABENDS": Budda(screen), "NACHTS": "Schlafen"}
         self.current_animation = None
         self.next_animation = None
         # self.meditation = Meditation()

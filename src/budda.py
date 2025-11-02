@@ -14,16 +14,16 @@ MOON_RADIUS = 180
 MOON_SCALE = 0.08
 
 MOONS_PATH = [
-    "../resources/Fleckenentfernerblau.png",
-    "../resources/Fleckenentfernerbraun.png",
-    "../resources/Fleckenentfernergelb.png",
-    "../resources/Fleckenentfernergruen.png",
-    "../resources/Fleckenentfernerlila.png",
-    "../resources/Fleckenentfernerorange.png",
-    "../resources/Fleckenentfernerrot.png"
+    "resources/Fleckenentfernerblau.png",
+    "resources/Fleckenentfernerbraun.png",
+    "resources/Fleckenentfernergelb.png",
+    "resources/Fleckenentfernergruen.png",
+    "resources/Fleckenentfernerlila.png",
+    "resources/Fleckenentfernerorange.png",
+    "resources/Fleckenentfernerrot.png"
 ]
 
-BUDDA_PATH = "../resources/peterbudda.png"
+BUDDA_PATH = "resources/peterbudda.png"
 
 
 def init_sprites():

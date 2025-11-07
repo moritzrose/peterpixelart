@@ -4,11 +4,13 @@ import pygame
 from animation_manager import AnimationManager
 
 FPS = 60
-BG = (8, 6, 14)
+
 
 pygame.init()
 #screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 screen = pygame.display.set_mode((800, 480))
+
+
 
 clock = pygame.time.Clock()
 animation_manager = AnimationManager(screen)
@@ -18,8 +20,6 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-
-    screen.fill(BG)
 
     animation_manager.update()
 

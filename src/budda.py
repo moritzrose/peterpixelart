@@ -3,15 +3,15 @@ import math
 import pygame
 
 GLOW_SPEED = 0.08
-GLOW_RADIUS = 30
+GLOW_RADIUS = 22
 
 BUDDA_ANGLE_SPEED = 0.02
 BUDDA_RADIUS = 15
-BUDDA_SCALE = 0.1
+BUDDA_SCALE = 0.13
 
 MOON_ANGLE_SPEED = 0.01
 MOON_RADIUS = 180
-MOON_SCALE = 0.08
+MOON_SCALE = 0.06
 
 MOONS_PATH = [
     "resources/Fleckenentfernerblau.png",

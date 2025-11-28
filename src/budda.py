@@ -28,7 +28,7 @@ BUDDA_PATH = "resources/peterbudda.png"
 
 def init_sprites():
     budda = pygame.image.load(BUDDA_PATH).convert_alpha()
-    budda = pygame.transform.smoothscale(budda, (budda.get_width() * BUDDA_SCALE, budda.get_height() * BUDDA_SCALE))
+    budda = pygame.transform.smoothscale(budda, (int (budda.get_width() * BUDDA_SCALE), (int (budda.get_height() * BUDDA_SCALE))))
 
     moons = []
     scale_factor = MOON_SCALE
